@@ -31,8 +31,6 @@ export class MultipleWatch {
     this.el.appendChild(this.timezone_options);
   }
 
-  getSelectedTimezone() {}
-
   addWatch() {
     let new_watch = document.createElement("div");
     this.clocks.push(new Clock(new_watch, this.current_timezone));
