@@ -1,5 +1,3 @@
-import './index.css';
-import { MyClass } from './example-unit';
-
-const a = new MyClass(2);
-console.log('number is', a.get());
+import "./index.css";
+import { MultipleWatch } from "./clock/multipleWatch";
+const multipleWatch = new MultipleWatch(document.getElementById("multiple_watch"));
